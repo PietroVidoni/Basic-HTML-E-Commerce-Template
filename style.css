@@ -1,0 +1,147 @@
+:root {
+    --custom-primary: #C6C7C7;
+    --custom-secondary: #020611;
+    --custom-tertiary: #575862;
+    --custom-quartery: #858A94;
+    --custom-white: #FFFFFF;
+    --custom-black: #000000;
+}
+
+.custom-text-primary {
+    color: var(--custom-primary);
+}
+
+.custom-bg-primary {
+    background-color: var(--custom-primary);
+}
+
+.custom-text-secondary {
+    color: var(--custom-secondary);
+}
+
+.custom-bg-secondary {
+    background-color: var(--custom-secondary);
+}
+
+.custom-text-tertiary {
+    color: var(--custom-tertiary);
+}
+
+.custom-bg-tertiary {
+    background-color: var(--custom-tertiary);
+}
+
+.custom-text-quartery {
+    color: var(--custom-quartery);
+}
+
+.custom-bg-quartery {
+    background-color: var(--custom-quartery);
+}
+
+.custom-text-white {
+    color: var(--custom-white);
+}
+
+.custom-bg-white {
+    background-color: var(--custom-white);
+}
+
+.custom-text-black {
+    color: var(--custom-black);
+}
+
+.custom-bg-black {
+    background-color: var(--custom-black);
+}
+
+.custom-link-primary {
+    color: var(--custom-primary);
+}
+
+.custom-link-primary:hover {
+    color: #393e61;
+}
+
+.custom-link-secondary {
+    color: var(--custom-secondary);
+}
+
+.custom-link-secondary:hover {
+    color: #6c879a;
+}
+
+.custom-link-tertiary {
+    color: var(--custom-tertiary);
+}
+
+.custom-link-tertiary:hover {
+    color: #ac6865;
+}
+
+.custom-link-quartery:hover {
+    color: #555a63;
+}
+
+body {
+    padding-top: 55px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    /* ie8 */
+}
+
+#image-wrapper {
+    position: relative;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #585B75;
+}
+
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a[id="hoverer"]:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 25px;
+}
+
+.topnav a.active {
+    color: black;
+    font: bold;
+}
+
+.navbar-nav>li {
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+h2.normal {
+    font-weight: normal;
+}
+
+h2.thick {
+    font-weight: bold;
+}
+
+h2.thicker {
+    font-weight: 900;
+    color: #000000;
+}

@@ -1,0 +1,54 @@
+
+.top-rectangle3{
+    position: absolute;
+    top: 50px; right: 0px;
+    bottom: 0; left: 15px;
+}
+
+.top-rectangle6{
+    position: absolute;
+    top: 32px; right: 0px;
+    bottom: 0; left: 0;
+}
+
+.bottom-rectangle8{
+    position: absolute;
+    top: 308px; right: 0px;
+    bottom: 0; left: 0;
+}
+
+.bottom-rectangle7{
+    position: absolute;
+    top: 662px; right: 0px;
+    bottom: 0; left: 28px;
+}
+
+.topcorner-left{
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+.bottomcorner-left{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.topcorner-right{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+#small-rectangle3{
+    background-image: url('metadata\svg\Rectangle 8.svg');
+    width: 300px;
+    height: 300px;
+}
+
+@media only screen and (min-width: 400px){
+    #small-rectangle3{
+        background-image: url('metadata\svg\Rectangle 8.svg');
+    }
+}
