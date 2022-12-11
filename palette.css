@@ -1,94 +1,84 @@
-:root{
-    --custom-primary: #78808F;
-    --custom-secondary: #CBD1DA;
-    --custom-tertiary: #030D27;
-    --custom-quartery: #2F3947;
-    --custom-fifth: #4E5F7B;
-    --custom-sixth: #EBC055;
+:root {
+    --custom-primary: #C6C7C7;
+    --custom-secondary: #020611;
+    --custom-tertiary: #585B75;
+    --custom-quartery: #858A94;
     --custom-white: #FFFFFF;
     --custom-black: #000000;
 }
-.custom-text-primary{
+
+.custom-text-primary {
     color: var(--custom-primary);
 }
-.custom-bg-primary{
+
+.custom-bg-primary {
     background-color: var(--custom-primary);
 }
-.custom-text-secondary{
+
+.custom-text-secondary {
     color: var(--custom-secondary);
 }
-.custom-bg-secondary{
+
+.custom-bg-secondary {
     background-color: var(--custom-secondary);
 }
-.custom-text-tertiary{
+
+.custom-text-tertiary {
     color: var(--custom-tertiary);
 }
-.custom-bg-tertiary{
+
+.custom-bg-tertiary {
     background-color: var(--custom-tertiary);
 }
-.custom-text-quartery{
+
+.custom-text-quartery {
     color: var(--custom-quartery);
 }
-.custom-bg-quartery{
+
+.custom-bg-quartery {
     background-color: var(--custom-quartery);
 }
-.custom-text-fifth{
-    color: var(--custom-fifth);
-}
-.custom-bg-fifth{
-    background-color: var(--custom-fifth);
-}
-.custom-text-sixth{
-    color: var(--custom-sixth);
-}
-.custom-bg-sixth{
-    background-color: var(--custom-sixth);
-}
-.custom-text-white{
+
+.custom-text-white {
     color: var(--custom-white);
 }
-.custom-bg-white{
+
+.custom-bg-white {
     background-color: var(--custom-white);
 }
-.custom-text-black{
+
+.custom-text-black {
     color: var(--custom-black);
 }
-.custom-bg-black{
+
+.custom-bg-black {
     background-color: var(--custom-black);
 }
-.custom-link-primary{
+
+.custom-link-primary {
     color: var(--custom-primary);
 }
-.custom-link-primary:hover{
+
+.custom-link-primary:hover {
     color: #393e61;
 }
-.custom-link-secondary{
+
+.custom-link-secondary {
     color: var(--custom-secondary);
 }
-.custom-link-secondary:hover{
+
+.custom-link-secondary:hover {
     color: #6c879a;
 }
-.custom-link-tertiary{
+
+.custom-link-tertiary {
     color: var(--custom-tertiary);
 }
-.custom-link-tertiary:hover{
-    color: #05102f;
+
+.custom-link-tertiary:hover {
+    color: #ac6865;
 }
-.custom-link-quartery{
-    color: var(--custom-quartery);
-}
-.custom-link-quartery:hover{
-    color: #1f252e;
-}
-.custom-link-fifth{
-    color: var(--custom-fifth);
-}
-.custom-link-fifth:hover{
-    color: #33425b;
-}
-.custom-link-sixth{
-    color: var(--custom-sixth);
-}
-.custom-link-sixth:hover{
-    color: #9b7925;
+
+.custom-link-quartery:hover {
+    color: #555a63;
 }

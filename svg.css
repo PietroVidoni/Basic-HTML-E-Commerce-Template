@@ -1,54 +1,242 @@
-
-.top-rectangle3{
+.pos-ab {
     position: absolute;
-    top: 50px; right: 0px;
-    bottom: 0; left: 15px;
 }
 
-.top-rectangle6{
+.pos-rel {
+    position: relative;
+}
+
+/* 1 Section CSS part */
+
+.top-icon-iconSvg {
+    top: 45px;
+    right: 0px;
+    bottom: 0;
+    left: 15px;
+}
+
+.top-rectangle3 {
     position: absolute;
-    top: 32px; right: 0px;
-    bottom: 0; left: 0;
+    top: 50px;
+    right: 0px;
+    bottom: 0;
+    left: 15px;
 }
 
-.bottom-rectangle8{
+.top-rectangle6 {
     position: absolute;
-    top: 308px; right: 0px;
-    bottom: 0; left: 0;
+    top: 32px;
+    right: 0px;
+    bottom: 0;
+    left: 0;
 }
 
-.bottom-rectangle7{
+.bottom-rectangle8 {
     position: absolute;
-    top: 662px; right: 0px;
-    bottom: 0; left: 28px;
+    top: 308px;
+    right: 0px;
+    bottom: 0;
+    left: 0;
 }
 
-.topcorner-left{
-    position:absolute;
-    top:0;
-    right:0;
+.bottom-rectangle7 {
+    position: absolute;
+    top: 662px;
+    right: 0px;
+    bottom: 0;
+    left: 28px;
 }
 
-.bottomcorner-left{
-    position:absolute;
-    top:0;
-    left:0;
+.bottom-polygon {
+    position: relative;
+    top: 800px;
+    right: 0px;
+    bottom: 0;
+    left: 0px;
 }
 
-.topcorner-right{
-    position:absolute;
-    top:0;
-    left:0;
+.topcorner-left {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
-#small-rectangle3{
+.bottomcorner-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.topcorner-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bottomcorner-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#small-rectangle3 {
     background-image: url('metadata\svg\Rectangle 8.svg');
     width: 300px;
     height: 300px;
 }
 
-@media only screen and (min-width: 400px){
-    #small-rectangle3{
-        background-image: url('metadata\svg\Rectangle 8.svg');
+.centered-rectangle {
+    text-align: center;
+    background-image: url('metadata/svg/section1/Rectangle\ 9.svg');
+    width: 178px;
+    height: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1000;
+}
+
+/* 2 Section CSS part */
+
+div.image::before {
+    background-image: url('metadata\png\section2\bottle1-md.png');
+}
+
+​ .bottle-img-2 {
+    background-image: url('metadata/svg/section2/Rectangle\ 13-md.svg');
+}
+
+.bottle-img-3 {
+    background-image: url('metadata/svg/section2/Rectangle\ 13-md.svg');
+}
+
+.bottle-img-4 {
+    background-image: url('metadata/svg/section2/Rectangle\ 13-md.svg');
+}
+
+.bottle-img-5 {
+    background-image: url('metadata/svg/section2/Rectangle\ 13-md.svg');
+}
+
+.to-left {
+    margin: 25px 0 0 auto;
+}
+
+.to-right {
+    margin: 25px auto 0 0;
+}
+
+.to-center{
+    margin: 25px auto 0 auto; 
+}
+
+.section2-B-rectangle {
+    position: relative;
+    text-align: center;
+    background-image: url('metadata/svg/section2/Rectangle\ 13-md.svg');
+    width: 459px;
+    height: 220px;
+    z-index: 1000;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+
+.section2-W-square {
+    position: relative;
+    text-align: center;
+    background-image: url('metadata/svg/section2/Rectangle\ 17-md.svg');
+    width: 218px;
+    height: 220px;
+    z-index: 1000;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+
+.section2-B-square {
+    position: relative;
+    text-align: center;
+    background-image: url('metadata/svg/section2/Rectangle\ 20-md.svg');
+    width: 218px;
+    height: 220px;
+    z-index: 1000;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+
+.top-mns {
+    top: -50px;
+}
+
+/* 3 Section CSS part */
+
+.button-readMore {
+    text-align: center;
+    font-size: larger;
+    background-image: url('metadata/svg/section3/button/Rectangle\ 22-md.svg');
+    width: 224px;
+    height: 56px;
+    position: relative;
+    z-index: 1000;
+}
+
+/* Dinamic CSS part */
+
+@media only screen and (max-width: 1000px) {
+
+    /* Section 2 Dinamic */
+
+    .section2-B-rectangle {
+        text-align: center;
+        background-image: url('metadata/svg/section2/Rectangle\ 13.svg');
+        width: 259px;
+        height: 124px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        z-index: 1000;
+        padding: 5px 10px;
+        margin-top: 5px;
+        border-radius: 15px;
+    }
+
+    .section2-W-square {
+        text-align: center;
+        background-image: url('metadata/svg/section2/Rectangle\ 17.svg');
+        width: 123px;
+        height: 124px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        z-index: 1000;
+        padding: 5px 10px;
+        margin-top: 5px;
+        border-radius: 15px;
+    }
+
+    .section2-B-square {
+        text-align: center;
+        background-image: url('metadata/svg/section2/Rectangle\ 20.svg');
+        width: 123px;
+        height: 124px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        z-index: 1000;
+        padding: 5px 10px;
+        margin-top: 5px;
+        border-radius: 15px;
+    }
+
+    /* Section 3 Dinamic */
+
+    .button-readMore {
+        text-align: center;
+        font-size: medium;
+
+        background-image: url('metadata/svg/section3/button/Rectangle\ 22.svg');
+        width: 88px;
+        height: 22px;
+        position: relative;
+        z-index: 1000;
     }
 }
