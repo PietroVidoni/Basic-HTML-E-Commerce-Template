@@ -17,10 +17,8 @@
 
 .top-rectangle3 {
     position: absolute;
-    top: 50px;
-    right: 0px;
-    bottom: 0;
-    left: 15px;
+    right: 76px;
+    top: 68px;
 }
 
 .top-rectangle6 {
@@ -33,7 +31,7 @@
 
 .bottom-rectangle8 {
     position: absolute;
-    top: 308px;
+    top: 100px;
     right: 0px;
     bottom: 0;
     left: 0;
@@ -41,23 +39,22 @@
 
 .bottom-rectangle7 {
     position: absolute;
-    top: 662px;
+    top: 800px;
     right: 0px;
     bottom: 0;
-    left: 28px;
+    left: 58px;
 }
 
 .bottom-polygon {
     position: relative;
-    top: 800px;
+    top: 900px;
     right: 0px;
-    bottom: 0;
+    bottom: 0px;
     left: 0px;
 }
 
 .topcorner-left {
     position: absolute;
-    top: 0;
     right: 0;
 }
 
@@ -87,22 +84,100 @@
 
 .centered-rectangle {
     text-align: center;
-    background-image: url('metadata/svg/section1/Rectangle\ 9.svg');
-    width: 178px;
-    height: 38px;
+    background-image: url('metadata/svg/section1/Rectangle\ 9-md.svg');
+    width: 356px;
+    height: 76px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     z-index: 1000;
 }
 
+#image-4{
+    background-image: url('metadata/svg/section1/Rectangle\ 4-md.svg');
+    width: 430px;
+    height: 548px;
+    left: 100px;
+}
+
+#image-6{
+    background-image: url('metadata/svg/section1/Rectangle\ 6-md.svg');
+    background-repeat: no-repeat;
+    width: 404px;
+    height: 170px;
+}
+
+#image-3{
+    background-image: url('metadata/svg/section1/Rectangle\ 3-md.svg');
+    background-repeat: no-repeat;
+    width: 430px;
+    height: 158px;
+}
+
+#image-1{
+    background-image: url('metadata/svg/icon/Polygon 1.svg');
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+}
+
+#image-2{
+    background-image: url('metadata/svg/icon/icon-md.svg');
+    background-repeat: no-repeat;
+    width: 224px;
+    height: 55px;
+}
+
+#image-8{
+    background-image: url('metadata/svg/section1/Rectangle\ 8-md.svg');
+    background-repeat: no-repeat;
+    width: 108px;
+    height: 812px;
+}
+
+#image-7{
+    background-image: url('metadata/svg/section1/Rectangle\ 7-md.svg');
+    background-repeat: no-repeat;
+    width: 586px;
+    height: 192px;
+}
+
+#icon{
+    background-image: url('metadata/svg/icon/icon-md.svg');
+    background-repeat: no-repeat;
+    width: 224px;
+    height: 110px;
+}
+
+#image-9{
+    background-image: url('metadata/svg/section1/Polygon\ 2-md.svg');
+    background-repeat: no-repeat;
+    width: 142px;
+    height: 136px;
+}
+
 /* 2 Section CSS part */
+
+.box-text{
+    position: absolute;
+    bottom: 0;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: 0 0 0 0;
+}
+
+.box-img{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 50px;
+}
 
 div.image::before {
     background-image: url('metadata\png\section2\bottle1-md.png');
 }
 
-​ .bottle-img-2 {
+​.bottle-img-2 {
     background-image: url('metadata/svg/section2/Rectangle\ 13-md.svg');
 }
 
@@ -118,16 +193,8 @@ div.image::before {
     background-image: url('metadata/svg/section2/Rectangle\ 13-md.svg');
 }
 
-.to-left {
-    margin: 25px 0 0 auto;
-}
-
-.to-right {
-    margin: 25px auto 0 0;
-}
-
-.to-center{
-    margin: 25px auto 0 auto; 
+.to-center {
+    margin: 25px auto 0 auto;
 }
 
 .section2-B-rectangle {
@@ -167,6 +234,7 @@ div.image::before {
     top: -50px;
 }
 
+
 /* 3 Section CSS part */
 
 .button-readMore {
@@ -179,11 +247,86 @@ div.image::before {
     z-index: 1000;
 }
 
+/* 4 Section CSS Part */
+
+.section4-square{
+    background-image: url('metadata/svg/section4/Rectangle\ 23-md.svg');
+    width: 246px;
+    height: 246px;
+    text-align: center;
+}
+
+.section4-img-1{
+    background-image: url('metadata/svg/section4/icon-1.svg');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 55px;
+    height: 58px;
+    top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25%;
+    display: block;
+}
+
+.section4-img-2{
+    background-image: url('metadata/svg/section4/icon-2.svg');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 55px;
+    height: 58px;
+    top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25%;
+    display: block;
+}
+
+.section4-img-3{
+    background-image: url('metadata/svg/section4/icon-3.svg');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 55px;
+    height: 58px;
+    top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25%;
+    display: block;
+}
+.button-viewMore {
+    text-align: center;
+    font-size: larger;
+    background-image: url('metadata/svg/section3/button/Rectangle\ 22-md.svg');
+    width: 224px;
+    height: 56px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    z-index: 1000;
+}
+
 /* Dinamic CSS part */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
 
     /* Section 2 Dinamic */
+
+    .box-img{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 50px;
+    }
+
+    .box-text{
+        position: absolute;
+        bottom: 0;
+        padding-left: 5px;
+        padding-bottom: 5px;
+        margin: 0 0 0 0;
+    }
 
     .section2-B-rectangle {
         text-align: center;
@@ -230,13 +373,166 @@ div.image::before {
     /* Section 3 Dinamic */
 
     .button-readMore {
-        text-align: center;
         font-size: medium;
-
         background-image: url('metadata/svg/section3/button/Rectangle\ 22.svg');
+        background-repeat: no-repeat;
         width: 88px;
         height: 22px;
         position: relative;
         z-index: 1000;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    /* 1 Section CSS part */
+
+    .top-icon-iconSvg {
+        top: 45px;
+        right: 0px;
+        bottom: 0;
+        left: 15px;
+    }
+
+    .top-rectangle3 {
+        position: absolute;
+        top: 50px;
+        right: 0px;
+        bottom: 0;
+        left: 15px;
+    }
+
+    .top-rectangle6 {
+        position: absolute;
+        top: 32px;
+        right: 0px;
+        bottom: 0;
+        left: 0;
+    }
+
+    .bottom-rectangle8 {
+        position: absolute;
+        top: 308px;
+        right: 0px;
+        bottom: 0;
+        left: 0;
+    }
+
+    .bottom-rectangle7 {
+        position: absolute;
+        top: 662px;
+        right: 0px;
+        bottom: 0;
+        left: 28px;
+    }
+
+    .bottom-polygon {
+        position: relative;
+        top: 800px;
+        right: 0px;
+        bottom: 0;
+        left: 0px;
+    }
+
+    .topcorner-left {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .bottomcorner-left {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .topcorner-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .bottomcorner-right {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #small-rectangle3 {
+        background-image: url('metadata\svg\Rectangle 8.svg');
+        width: 300px;
+        height: 300px;
+    }
+
+    .centered-rectangle {
+        text-align: center;
+        background-image: url('metadata/svg/section1/Rectangle\ 9.svg');
+        width: 178px;
+        height: 38px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        z-index: 1000;
+    }
+
+    #image-4{
+        background-image: url('metadata/svg/section1/Rectangle 4.svg');
+        width: 283px;
+        height: 361px;
+    }
+
+    #image-6{
+        background-image: url('metadata/svg/section1/Rectangle 6.svg');
+        background-repeat: no-repeat;
+        width: 202px;
+        height: 85px;
+    }
+
+    #image-3{
+        background-image: url('metadata/svg/section1/Rectangle 3.svg');
+        background-repeat: no-repeat;
+        width: auto;
+        height: auto;
+    }
+
+    #image-1{
+        background-image: url('metadata/svg/icon/Polygon 1.svg');
+        background-repeat: no-repeat;
+        width: auto;
+        height: auto;
+    }
+
+    #image-2{
+        background-image: url('metadata/svg/icon/icon 2.svg');
+        background-repeat: no-repeat;
+        width: auto;
+        height: auto;
+    }
+
+    #image-8{
+        background-image: url('metadata/svg/section1/Rectangle 8.svg');
+        background-repeat: no-repeat;
+        width: 54px;
+        height: 406px;
+    }
+
+    #image-7{
+        background-image: url('metadata/svg/section1/Rectangle 7.svg');
+        background-repeat: no-repeat;
+        width: 293px;
+        height: 96px;
+    }
+
+    #icon{
+        background-image: url('metadata/svg/icon/icon.svg');
+        background-repeat: no-repeat;
+        width: 112px;
+        height: 55px;
+    }
+
+    #image-9{
+        background-image: url('metadata/svg/section1/Polygon 2.svg');
+        background-repeat: no-repeat;
+        width: 71px;
+        height: 68px;
     }
 }

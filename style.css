@@ -1,5 +1,12 @@
 body {
     padding-top: 55px;
+    
+    scrollbar-width: none; 
+    overflow-y: scroll; 
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 img {
@@ -80,7 +87,11 @@ h2.thicker {
 }
 
 .mrg-top-sec-two {
-    margin-top: 400px;
+    margin-top: 350px;
+}
+
+.mrg-top-quart {
+    margin-top: 150px;
 }
 
 .pad-top-title {
@@ -94,26 +105,22 @@ h2.thicker {
 
 /* Section 2 */
 
-p.bottom-text{
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    bottom: 0;
-}
-
 /* Section 3 */
+
+.link-rm{
+    text-decoration: none;
+}
 
 .center-text {
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    display: table-cell;   
+    vertical-align: middle;
 }
 
 .button {
-    color: white;
     text-align: center;
+    display: table;
     text-decoration: none;
-    display: inline-block;
 }
 
 .nopadding {
