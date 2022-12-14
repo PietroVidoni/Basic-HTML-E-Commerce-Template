@@ -16,6 +16,10 @@ img {
     /* ie8 */
 }
 
+.d-block{
+    display: block;
+}
+
 #image-wrapper {
     position: relative;
     width: auto;
@@ -128,6 +132,10 @@ h2.thicker {
     margin: 0;
 }
 
+.padding-bot{
+    padding-bottom: 10px;
+}
+
 .small-middle-container{
     position: relative;
 	margin: auto;
@@ -139,4 +147,27 @@ h2.thicker {
     text-align: center;
     font-size: larger;
     font: bold;
+}
+
+.form_section{
+    position: relative;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 30px;
+}
+
+.form_section input {
+    width: 100%;
+    border: none;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 15px;
+    outline: none;
+    color: #000000;
+    border: 1px solid #a5a5a5;
+}
+
+.form_container{
+    padding-top: 20px;
 }

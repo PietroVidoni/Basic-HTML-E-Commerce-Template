@@ -90,6 +90,7 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    display: table;
     z-index: 1000;
 }
 
@@ -170,7 +171,7 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    bottom: 50px;
+    bottom: 50%;
 }
 
 div.image::before {
@@ -307,6 +308,24 @@ div.image::before {
     z-index: 1000;
 }
 
+/* 5 Section CSS Part */
+
+.therd_section-img{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+
+.button-send{
+    text-align: center;
+    font-size: larger;
+    background-image: url('metadata/svg/section3/button/Rectangle\ 22-md.svg');
+    width: 224px;
+    height: 56px;
+    position: relative;
+    z-index: 1000;
+}
+
 /* Dinamic CSS part */
 
 @media only screen and (max-width: 1200px) {
@@ -383,7 +402,7 @@ div.image::before {
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     /* 1 Section CSS part */
 
     .top-icon-iconSvg {
@@ -534,5 +553,17 @@ div.image::before {
         background-repeat: no-repeat;
         width: 71px;
         height: 68px;
+    }
+}
+
+@media only screen and (max-width: 1500px){
+    .mrg-top-sec-two {
+        margin-top: 450px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .therd_section-img{
+        padding-bottom: 20px;
     }
 }
