@@ -1,0 +1,317 @@
+body {
+    padding-top: 55px;
+
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    /* ie8 */
+}
+
+.d-block {
+    display: block;
+}
+
+.button-readMore:hover {
+    color: var(--custom-white);
+}
+
+.button-w:hover {
+    color: var(--custom-white);
+}
+
+#image-wrapper {
+    position: relative;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: var(--custom-tertiary);
+}
+
+.topnav a {
+    float: left;
+    color: var(--custom-black);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a[id="hoverer"]:hover {
+    background-color: var(--custom-white);
+    color: var(--custom-black);
+    border-radius: 25px;
+}
+
+.topnav a.active {
+    color: var(--custom-black);
+    font: bold;
+}
+
+.navbar-nav>li {
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+h2.normal {
+    font-weight: normal;
+}
+
+h2.thick {
+    font-weight: 400;
+}
+
+h2.thicker {
+    font-weight: 900;
+    font-size: 75px;
+    color: var(--custom-black);
+}
+
+.maintxt {
+    position: relative;
+}
+
+.maintxt>img,
+.overlay-text {
+    position: absolute;
+}
+
+.shop-title {
+    font: bolder;
+    margin-top: 150px;
+}
+
+.second_section {
+    position: relative;
+    display: block;
+}
+
+.therd_section {
+    margin-top: 25%;
+}
+
+.fourth_section {
+    margin-top: 350px;
+}
+
+.fourth_section .fourth_section-box {
+    position: relative;
+    top: 150px;
+    background-color: var(--custom-white);
+    color: var(--custom-black);
+    padding: 40px;
+}
+
+.pad-top-title {
+    padding-top: 120px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Section 2 */
+
+.carousel {
+    padding-top: 80px;
+}
+
+/* Section 3 */
+
+.link-rm {
+    text-decoration: none;
+}
+
+.center-text {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.button {
+    text-align: center;
+    display: table;
+    text-decoration: none;
+}
+
+.button a {
+    color: inherit;
+}
+
+.padding-bot {
+    padding-bottom: 10px;
+}
+
+.small-middle-container {
+    position: relative;
+    margin: auto;
+    width: 40%;
+    background-size: contain;
+}
+
+.fetures-section {
+    margin-top: 550px;
+    block-size: 100%;
+}
+
+.fetures-title {
+    padding-top: 15px;
+    text-align: center;
+    font-size: larger;
+    font: bold;
+}
+
+.form_section {
+    margin-top: 490px;
+}
+
+.form_section .form-box {
+    position: relative;
+    top: 150px;
+    background-color: var(--custom-white);
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 30px;
+}
+
+.form_section input {
+    width: 100%;
+    border: none;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 15px;
+    outline: none;
+    color: var(--custom-black);
+    border: 1px solid #a5a5a5;
+}
+
+.form_container {
+    padding-top: 20px;
+}
+
+.testimonial_section {
+    margin-top: 470px;
+}
+
+.testimonial_section img {
+    border-radius: 100%;
+    border: 1px solid var(--custom-detail);
+}
+
+.testimonial_section .box {
+    margin: 45px 0;
+    text-align: center;
+    color: var(--custom-white);
+    border-radius: 15px;
+    padding: 25px;
+    background-color: var(--custom-secondary);
+}
+
+.testimonial_section h6 {
+    color: var(--custom-detail);
+}
+
+.octave_section {
+    margin-top: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--custom-secondary);
+}
+
+.octave_section .about-title {
+    color: var(--custom-white);
+}
+
+.octave_section p {
+    color: var(--custom-white);
+}
+
+.octave_section .box-icon a {
+    background-color: var(--custom-white);
+    border-radius: 100%;
+    width: 21px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.octave_section .box-map {
+    display: block;
+    position: relative;
+    margin: auto auto auto auto;
+    padding-top: 40px;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 44%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 90%;
+    width: 100%;
+    position: absolute;
+}
+
+.octave_section .footer_contact h4 {
+    color: var(--custom-white);
+}
+
+.octave_section .contact_link_box {
+    padding-top: 10px;
+}
+
+.octave_section .contact_link_box div {
+    margin-top: 8px;
+    font-size: 11px;
+    border-radius: 15px;
+    background-color: var(--custom-white);
+    height: 15px;
+    width: 200px;
+    display: table;
+}
+
+.octave_section .contact_link_box div a {
+    color: var(--custom-black);
+}
+
+.octave_section .container p {
+    padding-top: 5px;
+}
+
+html {
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    scroll-margin-top: 50px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+}

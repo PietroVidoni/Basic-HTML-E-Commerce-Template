@@ -1,0 +1,302 @@
+/* Dinamic CSS part */
+
+@media only screen and (max-width: 1200px) {
+
+    /* Section 2 Dinamic */
+
+    .box-img {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 50px;
+    }
+
+    .box-text {
+        position: absolute;
+        bottom: 0;
+        padding-left: 5px;
+        padding-bottom: 5px;
+        margin: 0 0 0 0;
+    }
+
+    .section2-B-rectangle {
+        text-align: center;
+        background-image: url('/metadata/svg/section2/Rectangle\ 13.svg');
+        width: 259px;
+        height: 124px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        z-index: 1000;
+        padding: 5px 10px;
+        margin-top: 5px;
+        border-radius: 15px;
+    }
+
+    .section2-W-square {
+        text-align: center;
+        background-image: url('/metadata/svg/section2/Rectangle\ 17.svg');
+        width: 123px;
+        height: 124px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        z-index: 1000;
+        padding: 5px 10px;
+        margin-top: 5px;
+        border-radius: 15px;
+    }
+
+    .section2-B-square {
+        text-align: center;
+        background-image: url('/metadata/svg/section2/Rectangle\ 20.svg');
+        width: 123px;
+        height: 124px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        z-index: 1000;
+        padding: 5px 10px;
+        margin-top: 5px;
+        border-radius: 15px;
+    }
+
+    /* Section 3 Dinamic */
+
+    .button-readMore {
+        font-size: medium;
+        background-image: url('/metadata/svg/section3/button/Rectangle\ 22.svg');
+        background-repeat: no-repeat;
+        width: 88px;
+        height: 22px;
+        position: relative;
+        z-index: 1000;
+    }
+
+    /* 1 Section CSS part */
+
+    .top-icon-iconSvg {
+        top: 45px;
+        right: 0px;
+        bottom: 0;
+        left: 15px;
+    }
+
+    .top-rectangle3 {
+        position: absolute;
+        top: 50px;
+        right: 0px;
+        bottom: 0;
+        left: 15px;
+    }
+
+    .top-rectangle6 {
+        position: absolute;
+        top: 32px;
+        right: 0px;
+        bottom: 0;
+        left: 0;
+    }
+
+    .bottom-rectangle8 {
+        position: absolute;
+        top: 308px;
+        right: 0px;
+        bottom: 0;
+        left: 0;
+    }
+
+    .bottom-rectangle7 {
+        position: absolute;
+        top: 662px;
+        right: 0px;
+        bottom: 0;
+        left: 28px;
+    }
+
+    .bottom-polygon {
+        position: relative;
+        top: 800px;
+        right: 0px;
+        bottom: 0;
+        left: 0px;
+    }
+
+    .topcorner-left {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .bottomcorner-left {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .topcorner-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .bottomcorner-right {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #small-rectangle3 {
+        background-image: url('/metadata\svg\Rectangle 8.svg');
+        width: 300px;
+        height: 300px;
+    }
+
+    .centered-rectangle {
+        text-align: center;
+        background-image: url('/metadata/svg/section1/Rectangle\ 9.svg');
+        width: 178px;
+        height: 38px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        z-index: 1000;
+    }
+
+    #image-4 {
+        background-image: url('/metadata/svg/section1/Rectangle 4.svg');
+        width: 283px;
+        height: 361px;
+    }
+
+    #image-6 {
+        background-image: url('/metadata/svg/section1/Rectangle 6.svg');
+        background-repeat: no-repeat;
+        width: 202px;
+        height: 85px;
+    }
+
+    #image-3 {
+        background-image: url('/metadata/svg/section1/Rectangle 3.svg');
+        background-repeat: no-repeat;
+        width: auto;
+        height: auto;
+    }
+
+    #image-8 {
+        background-image: url('/metadata/svg/section1/Rectangle 8.svg');
+        background-repeat: no-repeat;
+        width: 54px;
+        height: 406px;
+    }
+
+    #image-7 {
+        background-image: url('/metadata/svg/section1/Rectangle 7.svg');
+        background-repeat: no-repeat;
+        width: 293px;
+        height: 96px;
+    }
+
+    #icon {
+        background-image: url('/metadata/svg/icon/icon.svg');
+        background-repeat: no-repeat;
+        width: 112px;
+        height: 55px;
+    }
+
+    #image-9 {
+        background-image: url('/metadata/svg/section1/Polygon 2.svg');
+        background-repeat: no-repeat;
+        width: 71px;
+        height: 68px;
+    }
+
+    .therd_section-img {
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .mrg-top-sec-two {
+        margin-top: 450px;
+    }
+
+    .shop-title {
+        margin-top: 450px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+
+    /* Cambio manualmente la posizione degli elementi della row 
+       massimo 500 px width dopo collidono
+    */
+    #top-B {
+        text-align: center;
+        background-image: url('/metadata/svg/section2/Rectangle\ 13.svg');
+        width: 259px;
+        height: 124px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        right: 40%;
+        z-index: 1000;
+        padding: 5px 10px;
+        margin-top: 5px;
+        border-radius: 15px;
+    }
+
+    #top-W {
+        text-align: center;
+        background-image: url('/metadata/svg/section2/Rectangle\ 17.svg');
+        width: 123px;
+        height: 124px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        left: 20%;
+        z-index: 1000;
+        padding: 5px 10px;
+        padding-left: 20px;
+        margin-top: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    h2.thicker {
+        font-weight: 900;
+        font-size: 30px;
+        color: var(--custom-black);
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .pad-top-title {
+        padding-top: 40px;
+    }
+
+    .fetures-section {
+        margin-top: 550px;
+        block-size: 100%;
+        margin-bottom: 100px;
+    }
+
+    .form_section .form-box {
+        position: relative;
+        top: 120px;
+        background-color: var(--custom-white);
+        margin-left: 20%;
+        margin-right: 20%;
+        border-radius: 30px;
+    }
+
+    .therd_section-box {
+        position: relative;
+        top: 150px;
+    }
+
+    .fourth_section {
+        margin-top: 450px;
+    }
+}
