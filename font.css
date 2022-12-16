@@ -1,8 +1,0 @@
-@font-face {  
-    src: url('metadata/font/Inter/Inter-VariableFont_slnt\,wght.ttf') format("truetype");
-    font-family: inherit;
-}
-.font-Inter { 
-    font-family:  Market Deco;
-    font-weight: bold;
-}
