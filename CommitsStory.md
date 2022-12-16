@@ -2,7 +2,7 @@
 Commit 1:
 Creazione navbar (section 1), e inizio section 2 tramite l' utilizzo di immagini svg 
 Commit 2:
-Avanzamento sezione 2 in cui è stato aggiunto un carousel (aggiunto tramite boostrap) Creazione sezione 3. Suddivisione del progetto in packege (separazione svg, png e codice)
+Avanzamento sezione 2 in cui è stato aggiunto un carousel (aggiunto tramite boostrap) Creazione sezione 3. Suddivisione del progetto in packege (separazione svg, png e codice), aggiunta di un font custom (in un .css) creazione di style.css (gestione regole tag pagina) e svg.css (gestione delle regole degli importati)
 Commit 3:
 Completamento sezione 3 tramite l' utilizzo della grid di boostrap e di immagini svg e Creazione sezione 4
 Commit 4:
